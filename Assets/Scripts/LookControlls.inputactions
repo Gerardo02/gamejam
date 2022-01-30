@@ -1,0 +1,34 @@
+{
+    "name": "LookControlls",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "29ee90f6-05ee-4c80-8dfa-d38b1254c6ea",
+            "actions": [
+                {
+                    "name": "MouseLook",
+                    "type": "PassThrough",
+                    "id": "eaf5ac65-51c4-430e-b94d-4590b3a9e0d3",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "93f61692-a076-4e26-870c-62b4fe38c5b7",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
